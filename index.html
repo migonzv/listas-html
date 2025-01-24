@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Listas</title>
   </head>
   <body>
@@ -39,5 +40,29 @@
       <li>Supaplex</li>
       <li>Counter Strike</li>
     </ol>
+    <h3>Nesting a List</h3>
+    <ul>
+      <li>First item</li>
+      <li>
+        Second item
+      <!-- Look, the closing </li> is not placed here!-->
+      <ul>
+        <li>second item first subitem</li>
+        <li>
+          second item second subitem
+        <!--Same for the second nested unordened list-->
+        <ul>
+          <li>second item second subitem first sub-subitem</li>
+          <li>second item second subitem second sub-subitem</li>
+          <li>second item second subitem third sub-subitem</li>
+        </ul>
+      </li>
+      <!--Clossing </li> tag for the li that contains the third unordened list-->
+      <li>second item third subitem</li>
+    </ul>
+    <!--Here is closing </li> tag-->
+    </li>
+    <li>third item</li>
+  </ul>
   </body>
 </html>
