@@ -1,0 +1,11 @@
+li {
+  list-style-type: circle;
+}
+
+li li {
+  list-style-type: square;
+}
+
+li li li {
+  list-style-type: georgian;
+}
